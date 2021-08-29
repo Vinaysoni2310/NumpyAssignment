@@ -1,0 +1,21 @@
+Concatenate following arrays along axis=0
+
+x=np.array([[1,2],[3,4]])
+
+y=np.array([[5,6]])
+
+
+Ans.
+
+import numpy as np
+
+x=np.array([[1,2],[3,4]])
+y=np.array([[5,6]])
+
+res = np.concatenate([x,y],axis=0)
+res
+
+
+array([[1, 2],
+       [3, 4],
+       [5, 6]])

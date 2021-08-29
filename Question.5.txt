@@ -1,0 +1,17 @@
+Find Dot product of two arrays?
+
+f = np.array([1,2])
+
+g = np.array([4,5])
+
+
+
+Ans.
+
+import numpy as np
+f = np.array([1,2])
+g = np.array([4,5])
+dot = np.dot(f,g)
+dot
+
+14
